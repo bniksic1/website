@@ -1,13 +1,18 @@
 import React from "react";
 
 const Portfolio = ({ data }) => {
+  const setNewLocation = (newLocation) => {
+    window.location = newLocation;
+  }
+
   if (data) {
     var projects = data.projects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            {/*<a href={resumeDownload} className="button">*/}
+            <a onClick={() => setNewLocation(projects.url)}>
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">

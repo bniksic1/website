@@ -88,7 +88,7 @@ const App = () => {
                       "title": "Movie Shop",
                       "category": "Spring-Boot ReactJS PostgreSQL",
                       "image": "MovieShop.png",
-                      "url": "https://github.com/bniksic1/Movie-Shop"
+                      "url": "https://www.github.com/bniksic1/Movie-Shop"
                   },
                   {
                       "title": "Schedule Planning",
