@@ -3,7 +3,7 @@ import React from "react";
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
-    var profilepic = "  images/" + data.image;
+    var profilepic = "images/" + data.image;
     var bio = data.bio;
     var city = data.address.city;
     var state = data.address.state;
