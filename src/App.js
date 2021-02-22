@@ -32,7 +32,26 @@ const App = () => {
               "website": "",
               "resumedownload": "https://drive.google.com/file/d/1-oB85gJCgYx373bObalvpfld-lc8KGgS/view?usp=sharing",
               "social": [
-
+                  {
+                      "name": "facebook",
+                      "url": "https://www.facebook.com/benjaminniksic87",
+                      "className": "fa fa-facebook"
+                  },
+                  {
+                      "name": "linkedin",
+                      "url": "https://www.linkedin.com/in/benjoniksic/",
+                      "className": "fa fa-linkedin"
+                  },
+                  {
+                      "name": "instagram",
+                      "url": "https://www.instagram.com/niksicbenjamin/",
+                      "className": "fa fa-instagram"
+                  },
+                  {
+                      "name": "github",
+                      "url": "https://github.com/bniksic1",
+                      "className": "fa fa-github"
+                  }
               ]
           },
           "resume": {

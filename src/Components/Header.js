@@ -11,7 +11,7 @@ const Header = ({ data }) => {
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <i className={network.className}></i>
+            <i className={network.className}/>
           </a>
         </li>
       );
