@@ -12,16 +12,18 @@ const Portfolio = ({ data }) => {
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
             {/*<a href={resumeDownload} className="button">*/}
-            <a onClick={() => setNewLocation(projects.url)}>
-              <img alt={projects.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
+            <a href={projects.url}>
+              <div>
+                <img alt={projects.title} src={projectImage} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>{projects.title}</h5>
+                    <p>{projects.category}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="link-icon">
-                <i className="fa fa-link"></i>
+                <div className="link-icon">
+                  <i className="fa fa-link"/>
+                </div>
               </div>
             </a>
           </div>
