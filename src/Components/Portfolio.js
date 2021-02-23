@@ -2,9 +2,7 @@ import React from "react";
 
 const Portfolio = ({ data }) => {
   const setNewLocation = (newLocation) => {
-    window
-        .open(newLocation, '_blank')
-        .focus()
+    window.location.href = newLocation
   }
 
   if (data) {
