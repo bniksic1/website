@@ -19,7 +19,7 @@ const App = () => {
               "occupation": "IT Student",
               "description": "Talk is cheap, show me the code",
               "image": "profilepic.jpg",
-              "bio": "Hi everyone! I'm high-energy student currently finalizing Bachelor science diploma in Computer Science and Informatics and prepared to contribute abilities to Software Engineer role while further developing acquired skills and gaining real-world experience. Highly organized, responsible and well-versed in many programming languages. I love healthy way of life so selected food and spending time in gym are some of my passions.",
+              "bio": "Hi everyone! I'm high-energy student currently finalizing Bachelor science diploma in Computer Science and Informatics and prepared to contribute abilities to Software Engineer role while further developing acquired skills and gaining real-world experience. Highly organized, responsible and well-versed in many programming languages. Due to my preference for healthy lifestyle, selected food and spending time in the gym are some of my passions.",
               "contactmessage": "Feel free to send me your suggestions and offers!",
               "email": "benjoniksic@gmail.com",
               "phone": "+387 61299706",
