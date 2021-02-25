@@ -294,6 +294,7 @@ ul#nav li.current a { color: #d23b68; }
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
+
 }
 .bars li {
    position: relative;
@@ -323,6 +324,16 @@ ul#nav li.current a { color: #d23b68; }
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
+}
+
+.skill-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-column{
+    flex-grow: 1;
+    width: 33%;
 }
 /*
 .git {
