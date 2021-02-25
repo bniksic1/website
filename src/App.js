@@ -79,26 +79,25 @@ const App = () => {
                   }
               ],
               "skills": [
-                  {
-                      "name": "ReactJs",
-                      "level": "100%"
-                  },
-                  {
-                      "name": "Python",
-                      "level": "85%"
-                  },
-                  {
-                      "name": "Git",
-                      "level": "70%"
-                  },
-                  {
-                      "name": "JavaScript",
-                      "level": "99%"
-                  },
-                  {
-                      "name": "Web Development",
-                      "level": "95%"
-                  }
+                  "Java",
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
+                  "ReactJS",
+                  "Spring Boot",
+                  "NodeJS",
+                  "Express",
+                  "Bootstrap",
+                  "C++",
+                  "C#",
+                  "JavaFX",
+                  "Julia",
+                  "Android",
+                  "Git",
+                  "PostgreSQL",
+                  "SQLite",
+                  "MySQL",
+                  "Photoshop"
               ]
           },
           "portfolio": {

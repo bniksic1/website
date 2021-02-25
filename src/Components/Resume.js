@@ -2,7 +2,6 @@ import React from "react";
 
 const Resume = ({ data }) => {
   if (data) {
-    var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -27,12 +26,10 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
+    var skills = data.skills.map(skill => {
       return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
+        <li key={skill} className="skill-column">
+          <em>{skill}</em>
         </li>
       );
     });
@@ -64,21 +61,17 @@ const Resume = ({ data }) => {
         <div className="nine columns main-col">{work}</div>
       </div>
 
-      {/*<div className="row skill">*/}
-      {/*  <div className="three columns header-col">*/}
-      {/*    <h1>*/}
-      {/*      <span>Skills</span>*/}
-      {/*    </h1>*/}
-      {/*  </div>*/}
+      <div className="row skill">
+        <div className="three columns header-col">
+          <h1>
+            <span>Skills</span>
+          </h1>
+        </div>
 
-      {/*  <div className="nine columns main-col">*/}
-      {/*    <p>{skillmessage}</p>*/}
-
-      {/*    <div className="bars">*/}
-      {/*      <ul className="skills">{skills}</ul>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+        <div className="nine columns main-col">
+            <ul className="skill-row">{skills}</ul>
+        </div>
+      </div>
     </section>
   );
 };
