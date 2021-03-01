@@ -106,7 +106,7 @@ const App = () => {
                       "title": "Movie Shop",
                       "category": "Spring-Boot ReactJS PostgreSQL",
                       "image": "MovieShop.png",
-                      "url": "https://www.github.com/bniksic1/Movie-Shop"
+                      "url": "https://github.com/bniksic1/MovieStore"
                   },
                   {
                       "title": "Schedule Planning",
