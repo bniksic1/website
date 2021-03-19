@@ -97,11 +97,19 @@ const App = () => {
                   "PostgreSQL",
                   "SQLite",
                   "MySQL",
-                  "Photoshop"
+                  "Photoshop",
+                  "Python",
+                  "Redux"
               ]
           },
           "portfolio": {
               "projects": [
+                  {
+                      "title": "Cinemoon",
+                      "category": "Spring-Boot ReactJS PostgreSQL",
+                      "image": "Cinemoon.png",
+                      "url": "https://github.com/bniksic1/Cinemoon"
+                  },
                   {
                       "title": "Movie Shop",
                       "category": "Spring-Boot ReactJS PostgreSQL",
