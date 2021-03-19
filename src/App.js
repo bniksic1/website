@@ -73,7 +73,7 @@ const App = () => {
               "work": [
                   {
                       "company": "Faculty of Electrical Engineering – Sarajevo",
-                      "title": "Undergraduate teaching assistant for JAVA and C++",
+                      "title": "Undergraduate teaching assistant for JAVA, C++ & Advanced Software Development",
                       "years": "Current",
                       "description": "Mentored students through office hours and one-on-one communication. Taught small groups of students focused on specific parts of coursework."
                   }
@@ -111,16 +111,16 @@ const App = () => {
                       "url": "https://github.com/bniksic1/Cinemoon"
                   },
                   {
-                      "title": "Movie Shop",
-                      "category": "Spring-Boot ReactJS PostgreSQL",
-                      "image": "MovieShop.png",
-                      "url": "https://github.com/bniksic1/MovieStore"
-                  },
-                  {
                       "title": "Schedule Planning",
                       "category": "NodeJS ExpressJS MySQL",
                       "image": "SchedulePlanning.png",
                       "url": "https://github.com/bniksic1/SchedulePlanning"
+                  },
+                  {
+                      "title": "Movie Shop",
+                      "category": "Spring-Boot ReactJS PostgreSQL",
+                      "image": "MovieShop.png",
+                      "url": "https://github.com/bniksic1/MovieStore"
                   },
                   {
                       "title": "Life Transactions Manager",
